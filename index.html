@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>HTML Javascript Python SQL</title>
+</head>
+<body>
+  <h1>HTML Javascript Python SQL Tutorial</h1>
+  <h3>List Of Tables</h3>
+  <div id="dbtables_div"></div>
+  
+  <h3>SQL Query</h3>
+  <form  action='./cgi-bin/runsql.py' method='get'>
+    <textarea id="sqlquery" spellcheck='false' name='sql' rows='7' cols='70' placeholder="select * FROM sqlite_master WHERE type='table';"></textarea> <br/>
+    <input type='submit'></input>
+    <button type="button" onclick='displayQueryResult()'>display below</button>
+  </form>
+
+  <h3>Output Table</h3>
+  <div id='output_table'>
+    <table border="1">
+      <tr><td>This is a sample table</td></tr>
+      <tr><td>It will be replaced by Javascript</td></tr>
+    </table>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript">
+    insertTableMenu();
+  </script>
+
+</body>
+</html>
