@@ -9,7 +9,8 @@ We rely on
 - Python 2.7
 - SQLite3
 - CGIHTTPServer 
-provided out of the box on any MacOS platform.
+
+All provided out of the box on any MacOS platform.
 
 # Other technologies used
 
