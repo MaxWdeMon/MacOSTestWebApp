@@ -1,3 +1,3 @@
-#!/usr/local/bin/python2
+#!/usr/bin/python
 import os
 print os.path.abspath("database/sample.db")
