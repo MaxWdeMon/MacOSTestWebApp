@@ -1,4 +1,4 @@
-#!/usr/local/bin/python2
+#!/usr/bin/python
 import sqlite3
 
 print "Content-type: text/html\n\n"
