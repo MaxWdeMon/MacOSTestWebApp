@@ -6,22 +6,24 @@ __None__
 
 Nothing needs to be installed on MacOS. 
 We rely on 
-- Python 2.7
 - SQLite3
+- Python 2.7
 - CGIHTTPServer 
 
 All provided out of the box on any MacOS platform.
 
-# Other technologies used
+# Technologies used
 
 - HTML
+  - _Maybe CSS later_
 - Javascript
-- Fetch API
-- _Maybe CSS later_
+  - Fetch API
+- Python CGI library
+- SQL queries to a SQLite3 database
 
 # Getting started
 
-In the cgi-bin folder update the first line of each file with the right path to Python 2. Use "which python" command in the terminal.
+In the cgi-bin folder update the first line of each file with the right path to Python 2. Use `which python` command in the terminal.
 _I will upload a Python 3 version later._
 
 # Warning
