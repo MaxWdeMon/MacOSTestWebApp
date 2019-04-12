@@ -1,5 +1,5 @@
 # MacOSTestWebApp
-Setup and run a website with a database with some 100 lines of code.
+These 100 lines of code get you a website with server-side scripting and database capabilities.
 
 # Prerequisites on MacOS
 __None__
@@ -21,7 +21,8 @@ All provided out of the box on any MacOS platform.
 
 # Getting started
 
-In the cgi-bin folder update the first line with the right path to PYTHON 2. (I will add a python 3 version later)
+In the cgi-bin folder update the first line of each file with the right path to Python 2. Use "which python" command in the terminal.
+_I will upload a Python 3 version later._
 
 # Warning
 
