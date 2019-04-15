@@ -9,12 +9,12 @@ def printTable(all_rows, headers):
   print "<table border='1'>"
   print "<tr>"
   for header in headers:
-    print "<th>" + header +"</th>"
+    print "<th>" + str(header) +"</th>"
   print "</tr>"
   for row in all_rows:
     print "<tr>"
     for col in row:
-      print "<td>" + col+"</td>"
+      print "<td>" + str(col) + "</td>"
     print "</tr>"
   print "</table>"
 
