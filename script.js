@@ -26,6 +26,7 @@ function fetchNewData(query, targetElementId, doAfter){
   
   function displayQueryResult(){
     var sqlquery = document.getElementById("sqlquery").value
+    sqlquery = sqlquery.replace(/\n/g," ");
     fetchNewData('./cgi-bin/runsql.py?sql=' + sqlquery,"output_table", doNothing);
     }
   
